@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yale School of Art Redesign — Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300;1,9..144,500&family=Syne:wght@400;500;600;700&family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/case-study.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+
+    <nav>
+      <a href="index.html" class="nav-logo">
+        <span>Kirill Zakharov</span><span>.</span>
+      </a>
+      <div class="nav-right">
+        <div class="nav-dot"></div>
+        <a href="index.html#work">Work</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+        <button
+          class="mode-toggle"
+          id="mode-toggle"
+          aria-label="Toggle color mode"
+        ></button>
+      </div>
+    </nav>
+
+    <!-- CS HERO -->
+    <div class="cs-hero">
+      <div class="cs-hero-eyebrow">
+        <a href="index.html" class="back-link">← Back to portfolio</a>
+        <div class="cs-hero-tags">
+          <span class="cs-tag featured">Featured</span>
+          <span class="cs-tag">UX Research</span>
+          <span class="cs-tag">Interaction Design</span>
+          <span class="cs-tag">Figma</span>
+          <span class="cs-tag">HTML/CSS/JS</span>
+          <span class="cs-tag">Spring 2026</span>
+        </div>
+      </div>
+
+      <h1 class="cs-hero-title">
+        <span>Yale School of Art</span><br />
+        <em>Redesign</em>
+      </h1>
+
+      <p class="cs-hero-summary">
+        A full end-to-end UX redesign of art.yale.edu spanning one semester —
+        from heuristic evaluation and paper sketches through two rounds of
+        usability testing, a responsive Figma prototype, and a live deployed
+        site with dark mode, real-time search, and inline form validation.
+      </p>
+
+      <div class="cs-meta-bar">
+        <div class="cs-meta-item">
+          <label>Timeline</label>
+          <span>Jan – May 2026</span>
+        </div>
+        <div class="cs-meta-item">
+          <label>Role</label>
+          <span>UX Designer &amp; Developer</span>
+        </div>
+        <div class="cs-meta-item">
+          <label>Team</label>
+          <span>Group of 4</span>
+        </div>
+        <div class="cs-meta-item">
+          <label>Deliverable</label>
+          <span>Live Website</span>
+        </div>
+      </div>
+
+      <div
+        class="cs-hero-img"
+        style="
+          background: linear-gradient(135deg, #0d2a4a 0%, #1a3d6e 100%);
+          border-radius: 12px;
+          padding: 2.5rem 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 1.5rem;
+        "
+      >
+        <div style="display: flex; gap: 2.5rem; flex-wrap: wrap">
+          <div style="text-align: center">
+            <div
+              style="
+                font-family: &quot;Fraunces&quot;, serif;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #f5c842;
+                line-height: 1;
+              "
+            >
+              4
+            </div>
+            <div
+              style="
+                color: rgba(255, 255, 255, 0.75);
+                font-size: 0.8rem;
+                margin-top: 0.3rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+              "
+            >
+              Rounds of Testing
+            </div>
+          </div>
+          <div style="text-align: center">
+            <div
+              style="
+                font-family: &quot;Fraunces&quot;, serif;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #f5c842;
+                line-height: 1;
+              "
+            >
+              15+
+            </div>
+            <div
+              style="
+                color: rgba(255, 255, 255, 0.75);
+                font-size: 0.8rem;
+                margin-top: 0.3rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+              "
+            >
+              Testers Across Semester
+            </div>
+          </div>
+          <div style="text-align: center">
+            <div
+              style="
+                font-family: &quot;Fraunces&quot;, serif;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #f5c842;
+                line-height: 1;
+              "
+            >
+              7
+            </div>
+            <div
+              style="
+                color: rgba(255, 255, 255, 0.75);
+                font-size: 0.8rem;
+                margin-top: 0.3rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+              "
+            >
+              Heuristic Violations Fixed
+            </div>
+          </div>
+          <div style="text-align: center">
+            <div
+              style="
+                font-family: &quot;Fraunces&quot;, serif;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: #f5c842;
+                line-height: 1;
+              "
+            >
+              100%
+            </div>
+            <div
+              style="
+                color: rgba(255, 255, 255, 0.75);
+                font-size: 0.8rem;
+                margin-top: 0.3rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+              "
+            >
+              Final Task Success Rate
+            </div>
+          </div>
+        </div>
+        <a
+          href="https://giancarlopretell.github.io/Interaction-Design-Capstone"
+          target="_blank"
+          style="
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #f5c842;
+            color: #0d2a4a;
+            padding: 0.9rem 1.6rem;
+            border-radius: 6px;
+            font-family: &quot;Syne&quot;, sans-serif;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            white-space: nowrap;
+            flex-shrink: 0;
+          "
+          >View Live Site →</a
+        >
+      </div>
+    </div>
+
+    <!-- CASE STUDY BODY -->
+    <div class="cs-body">
+      <!-- ── 01 PROBLEM ── -->
+      <section class="cs-section" id="problem">
+        <div class="cs-section-label">
+          <span class="step-num">01</span>
+          <span>The Problem</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>What was <em>broken</em>?</h2>
+
+          <p>
+            art.yale.edu is one of the most notoriously chaotic university
+            websites. As a wiki-style site where any community member can edit
+            content, it had accumulated layers of conflicting layouts, broken
+            navigation, and accessibility failures that made basic tasks nearly
+            impossible — especially on mobile. Our target users: prospective
+            students, working artists, and faculty.
+          </p>
+
+          <img
+            src="./files/yaleoriginal.png"
+            alt="Original Yale School of Art website showing chaotic layout"
+            class="cs-image"
+          />
+
+          <div class="callout">
+            <div class="callout-icon">↳</div>
+            <p>
+              <strong>Core problem:</strong> Users struggled to complete basic
+              tasks — applying to the school, finding events, or understanding
+              program offerings — due to visual chaos, broken mobile navigation,
+              and zero accessibility accommodations.
+            </p>
+          </div>
+
+          <h3>Heuristic Evaluation Findings</h3>
+          <p>
+            We evaluated the original site against Nielsen's 10 Usability
+            Heuristics and identified 7 violations across the key screens. The
+            most critical issues clustered around four failure areas:
+          </p>
+
+          <img
+            src="./files/hamburger.png"
+            alt="Mobile navigation issues and layout problems on original site"
+            class="cs-image"
+          />
+
+          <div class="finding-grid">
+            <div class="finding-card">
+              <div class="finding-num">H1</div>
+              <div class="finding-body">
+                <strong>Broken Mobile Nav</strong>
+                <p>
+                  Hamburger menu buttons were too small to tap reliably. There
+                  was no fully usable layout on phones — the site was
+                  effectively desktop-only.
+                </p>
+              </div>
+            </div>
+            <div class="finding-card">
+              <div class="finding-num">H8</div>
+              <div class="finding-body">
+                <strong>Visual Chaos</strong>
+                <p>
+                  Cluttered layout, zero whitespace, unreadable text, and no
+                  contrast. The homepage displayed competing content with no
+                  clear hierarchy or primary call-to-action.
+                </p>
+              </div>
+            </div>
+            <div class="finding-card">
+              <div class="finding-num">H4</div>
+              <div class="finding-body">
+                <strong>Poor Accessibility</strong>
+                <p>
+                  No focus states, multiple WCAG AA failures, no dark mode
+                  support. The site was exclusionary by design.
+                </p>
+              </div>
+            </div>
+            <div class="finding-card">
+              <div class="finding-num">H5</div>
+              <div class="finding-body">
+                <strong>Poor System Feedback</strong>
+                <p>
+                  No loading states anywhere. The application form used a pop-up
+                  for validation instead of inline error messages, causing
+                  repeated failed submissions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 02 DESIGN GOALS ── -->
+      <section class="cs-section" id="goals">
+        <div class="cs-section-label">
+          <span class="step-num">02</span>
+          <span>Design Goals</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Defining the <em>direction</em></h2>
+
+          <p>
+            Drawing directly from the heuristic evaluation, we translated the
+            violations into five specific design goals that guided every
+            subsequent decision.
+          </p>
+
+          <div class="goals-list">
+            <div class="goal-item">
+              <span class="goal-num">01</span>
+              <p>
+                Establish a clean, consistent navigation structure with fewer
+                top-level items — reducing cognitive load and making the menu
+                predictable across all pages.
+              </p>
+            </div>
+            <div class="goal-item">
+              <span class="goal-num">02</span>
+              <p>
+                Build a fully responsive mobile layout with touch targets sized
+                to WCAG minimum (44×44px), a reliable hamburger menu, and a
+                layout that works without horizontal scrolling.
+              </p>
+            </div>
+            <div class="goal-item">
+              <span class="goal-num">03</span>
+              <p>
+                Implement a persistent, clearly labeled dark mode toggle in the
+                top-right of every page that remembers the user's preference
+                across the session.
+              </p>
+            </div>
+            <div class="goal-item">
+              <span class="goal-num">04</span>
+              <p>
+                Replace pop-up form validation with inline error and success
+                states — appearing beside each field, in plain language,
+                clearing automatically once the input is corrected.
+              </p>
+            </div>
+            <div class="goal-item">
+              <span class="goal-num">05</span>
+              <p>
+                Meet WCAG AA contrast ratios across both light and dark themes,
+                add visible focus states on all interactive elements, and
+                support keyboard navigation throughout.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── DESIGN PROCESS TIMELINE ── -->
+      <section class="cs-section" style="padding-top: 0">
+        <div class="cs-section-label">
+          <span
+            class="step-num"
+            style="
+              background: transparent;
+              color: var(--text-muted, #888);
+              border: 1.5px solid var(--border, #e2e2e2);
+            "
+            >→</span
+          >
+          <span>Design Evolution</span>
+        </div>
+        <div class="cs-content">
+          <h2>Five stages, one <em>semester</em></h2>
+          <p>
+            Every design decision was grounded in a prior stage. Nothing was
+            skipped.
+          </p>
+
+          <!-- Timeline -->
+          <div style="margin-top: 2rem; position: relative">
+            <!-- Connector line -->
+            <div
+              style="
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+                right: 2rem;
+                height: 2px;
+                background: linear-gradient(90deg, #0d2a4a, #1a3d6e, #0d2a4a);
+                z-index: 0;
+              "
+            ></div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 1rem;
+                position: relative;
+                z-index: 1;
+              "
+            >
+              <!-- Stage 1 -->
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <div
+                  style="
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background: #0d2a4a;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: &quot;Fraunces&quot;, serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #f5c842;
+                    flex-shrink: 0;
+                  "
+                >
+                  1
+                </div>
+                <div style="text-align: center">
+                  <div
+                    style="
+                      font-family: &quot;Syne&quot;, sans-serif;
+                      font-weight: 700;
+                      font-size: 0.8rem;
+                      color: var(--text, #111);
+                      margin-bottom: 0.4rem;
+                    "
+                  >
+                    Heuristic Evaluation
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.72rem;
+                      color: var(--text-muted, #666);
+                      line-height: 1.5;
+                    "
+                  >
+                    10 heuristics mapped<br />7 violations identified<br />Issues
+                    prioritized
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stage 2 -->
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <div
+                  style="
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background: #0d2a4a;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: &quot;Fraunces&quot;, serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #f5c842;
+                    flex-shrink: 0;
+                  "
+                >
+                  2
+                </div>
+                <div style="text-align: center">
+                  <div
+                    style="
+                      font-family: &quot;Syne&quot;, sans-serif;
+                      font-weight: 700;
+                      font-size: 0.8rem;
+                      color: var(--text, #111);
+                      margin-bottom: 0.4rem;
+                    "
+                  >
+                    Paper Sketches
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.72rem;
+                      color: var(--text-muted, #666);
+                      line-height: 1.5;
+                    "
+                  >
+                    8 screens sketched<br />Mobile + desktop<br />5 users tested
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stage 3 -->
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <div
+                  style="
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background: #0d2a4a;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: &quot;Fraunces&quot;, serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #f5c842;
+                    flex-shrink: 0;
+                  "
+                >
+                  3
+                </div>
+                <div style="text-align: center">
+                  <div
+                    style="
+                      font-family: &quot;Syne&quot;, sans-serif;
+                      font-weight: 700;
+                      font-size: 0.8rem;
+                      color: var(--text, #111);
+                      margin-bottom: 0.4rem;
+                    "
+                  >
+                    Wireframes (Figma)
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.72rem;
+                      color: var(--text-muted, #666);
+                      line-height: 1.5;
+                    "
+                  >
+                    10 screens (5 mobile<br />+ 5 desktop)<br />4 classmates
+                    tested
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stage 4 -->
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <div
+                  style="
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background: #0d2a4a;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: &quot;Fraunces&quot;, serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #f5c842;
+                    flex-shrink: 0;
+                  "
+                >
+                  4
+                </div>
+                <div style="text-align: center">
+                  <div
+                    style="
+                      font-family: &quot;Syne&quot;, sans-serif;
+                      font-weight: 700;
+                      font-size: 0.8rem;
+                      color: var(--text, #111);
+                      margin-bottom: 0.4rem;
+                    "
+                  >
+                    Hi-Fi Prototype
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.72rem;
+                      color: var(--text-muted, #666);
+                      line-height: 1.5;
+                    "
+                  >
+                    Full color + interactions<br />Dark mode, search, forms<br />3
+                    real users tested
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stage 5 -->
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 0.75rem;
+                "
+              >
+                <div
+                  style="
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    background: #f5c842;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: &quot;Fraunces&quot;, serif;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #0d2a4a;
+                    flex-shrink: 0;
+                  "
+                >
+                  5
+                </div>
+                <div style="text-align: center">
+                  <div
+                    style="
+                      font-family: &quot;Syne&quot;, sans-serif;
+                      font-weight: 700;
+                      font-size: 0.8rem;
+                      color: var(--text, #111);
+                      margin-bottom: 0.4rem;
+                    "
+                  >
+                    Live Website
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.72rem;
+                      color: var(--text-muted, #666);
+                      line-height: 1.5;
+                    "
+                  >
+                    HTML + CSS + JS<br />Deployed to GitHub Pages<br />Responsive
+                    &amp; accessible
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 03 EARLY EXPLORATION ── -->
+      <section class="cs-section" id="sketches">
+        <div class="cs-section-label">
+          <span class="step-num">03</span>
+          <span>Sketches &amp; First Testing</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Paper first, <em>pixels later</em></h2>
+
+          <p>
+            Before opening Figma, we sketched key screens on paper — home,
+            programs, events, apply, and mobile layouts. Keeping it low-fidelity
+            forced focus on structure and hierarchy rather than visual polish,
+            and made it easy for participants to point out confusion without
+            feeling like they were criticizing a finished design.
+          </p>
+
+          <h3>Peer Usability Testing — Round 1</h3>
+          <p>
+            We tested the paper sketches with 5 participants using a think-aloud
+            protocol. Each participant received tasks without explanation, and
+            we documented hesitations, wrong assumptions, and confusion out
+            loud.
+          </p>
+
+          <div class="quote-block">
+            <p>
+              "I'm not sure where to go to apply — there are too many options
+              and none of them say 'Apply' clearly."
+            </p>
+            <cite>Participant 2, Task 1 — Finding the Application</cite>
+          </div>
+
+          <h3>What Changed as a Result</h3>
+
+          <img
+            src="./files/navgiation.png"
+            alt="Sketch iterations showing improved navigation"
+            class="cs-image"
+          />
+
+          <div class="change-list">
+            <div class="change-item">
+              <div class="change-problem">
+                Problem: Navigation had too many top-level items — users were
+                overwhelmed and couldn't predict where to go
+              </div>
+              <div class="change-arrow">→</div>
+              <div class="change-fix">
+                Fix: Reorganized the menu into clear categories, reducing
+                top-level items and grouping related pages
+              </div>
+            </div>
+            <div class="change-item">
+              <div class="change-problem">
+                Problem: Mobile touch targets were too small — testers with
+                average-sized hands couldn't tap UI elements reliably
+              </div>
+              <div class="change-arrow">→</div>
+              <div class="change-fix">
+                Fix: Enlarged all touch targets and simplified the mobile layout
+                to prioritize the most common tasks
+              </div>
+            </div>
+            <div class="change-item">
+              <div class="change-problem">
+                Problem: Dark mode toggle was hidden — users spent 8–10 seconds
+                searching for it in the wrong location
+              </div>
+              <div class="change-arrow">→</div>
+              <div class="change-fix">
+                Fix: Moved dark mode toggle to the top-right of every page with
+                a clear icon and label
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 04 WIREFRAMES ── -->
+      <section class="cs-section" id="wireframes">
+        <div class="cs-section-label">
+          <span class="step-num">04</span>
+          <span>Wireframes</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Structure before <em>style</em></h2>
+
+          <p>
+            Using the paper testing findings, we built 10 wireframes in Figma —
+            5 mobile and 5 desktop — in grayscale only. No color, no imagery, no
+            branding. Every layout decision was tied to a documented usability
+            finding.
+          </p>
+
+          <img
+            src="./files/navgiation.png"
+            alt="Low-fidelity grayscale wireframes for desktop and mobile layouts"
+            class="cs-image"
+          />
+
+          <div class="live-link-block">
+            <a
+              href="https://www.figma.com/design/cpUnrUg3ZUvNtbHCEyX6h4/Assignment-5--Wireframe-Creation-Design?node-id=0-1&p=f"
+              target="_blank"
+              class="contact-btn"
+              >View Figma File →</a
+            >
+          </div>
+
+          <h3>Wireframe Testing — Round 2</h3>
+          <p>
+            We ran a second round of structured testing with 4 classmates using
+            the think-aloud method. One member facilitated, one took notes, and
+            one observed navigation patterns. Roles rotated between
+            participants.
+          </p>
+
+          <div class="callout">
+            <div class="callout-icon">↳</div>
+            <p>
+              <strong>Key revision from wireframe testing:</strong>
+              Early wireframes lacked signifiers — participants were unsure
+              which elements were interactive. We learned that labels and
+              affordances are critical even in grayscale: adding explicit button
+              outlines, underlined links, and field borders dramatically reduced
+              confusion in the next session.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 05 PROTOTYPE ── -->
+      <section class="cs-section" id="prototype">
+        <div class="cs-section-label">
+          <span class="step-num">05</span>
+          <span>High-Fidelity Prototype</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Bringing it <em>to life</em></h2>
+
+          <p>
+            With the wireframe structure validated, we built a fully interactive
+            high-fidelity prototype in Figma — covering desktop and mobile
+            layouts, three complete user flows, real-time search with dropdown
+            suggestions, loading states, inline form validation, and a dark mode
+            toggle. Moving to hi-fi required building out a full design system
+            with variables, auto-layout, and component states.
+          </p>
+
+          <img
+            src="./files/highfidelity.png"
+            alt="High-fidelity Figma prototype with full UI design"
+            class="cs-image"
+          />
+
+          <div class="live-link-block">
+            <a
+              href="https://www.figma.com/design/fqoenoO4JaLWZZ7y0kLSSS/Assignment-7?node-id=0-1"
+              target="_blank"
+              class="contact-btn"
+              >View Figma File →</a
+            >
+          </div>
+
+          <div class="prototype-features">
+            <div class="proto-feat">
+              <div class="proto-feat-icon">⊕</div>
+              <div>
+                <strong>Responsive layout</strong>
+                <p>
+                  Desktop and mobile variants with properly sized touch targets
+                  and device-appropriate navigation patterns
+                </p>
+              </div>
+            </div>
+            <div class="proto-feat">
+              <div class="proto-feat-icon">◎</div>
+              <div>
+                <strong>Real-time search</strong>
+                <p>
+                  Search triggers live dropdown suggestions — simulated with
+                  Figma component variants and overlay interactions
+                </p>
+              </div>
+            </div>
+            <div class="proto-feat">
+              <div class="proto-feat-icon">◐</div>
+              <div>
+                <strong>Loading states</strong>
+                <p>
+                  Smart Animate transitions with timed delays between user
+                  action and result — no instant jumps
+                </p>
+              </div>
+            </div>
+            <div class="proto-feat">
+              <div class="proto-feat-icon">◻</div>
+              <div>
+                <strong>Form validation</strong>
+                <p>
+                  Inline error, success, and default states — no alert popups,
+                  no page reloads
+                </p>
+              </div>
+            </div>
+            <div class="proto-feat">
+              <div class="proto-feat-icon">◑</div>
+              <div>
+                <strong>Dark mode toggle</strong>
+                <p>
+                  Top-right persistent toggle — entire UI switches instantly,
+                  session preference remembered
+                </p>
+              </div>
+            </div>
+          </div>
+          <h3>Prototype User Testing — Round 3</h3>
+          <p>
+            We tested the prototype with 3 target-user participants. Each
+            completed 5 core tasks while we observed navigation behavior,
+            errors, and hesitation points. Follow-up questions surfaced what
+            felt unclear and what worked.
+          </p>
+
+          <div class="finding-grid">
+            <div class="finding-card">
+              <div class="finding-num">P1</div>
+              <div class="finding-body">
+                <strong>All tasks completed</strong>
+                <p>
+                  Completed every task without prompting. Noted the layout was
+                  "easy to understand and very organized."
+                </p>
+              </div>
+            </div>
+            <div class="finding-card">
+              <div class="finding-num">P2</div>
+              <div class="finding-body">
+                <strong>Dark mode praised</strong>
+                <p>
+                  Found the toggle immediately in its new top-right position.
+                  Commented: "Dark mode is easy to find now — I like how it
+                  remembers my setting."
+                </p>
+              </div>
+            </div>
+            <div class="finding-card">
+              <div class="finding-num">P3</div>
+              <div class="finding-body">
+                <strong>Application flow</strong>
+                <p>
+                  Completed the full application form in under 30 seconds.
+                  Described the page as "very simple to use."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 06 IMPLEMENTATION ── -->
+      <section class="cs-section" id="implementation">
+        <div class="cs-section-label">
+          <span class="step-num">06</span>
+          <span>Implementation</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Built, not <em>mocked</em></h2>
+
+          <p>
+            With the prototype validated, we translated the design into working
+            HTML, CSS, and JavaScript — deployed to GitHub Pages. The build
+            followed a mobile-first approach, with styles written for 375px
+            first then scaled up via media queries to 1280px desktop layout.
+          </p>
+
+          <h3>Responsive Layout</h3>
+
+          <img
+            src="./files/mobile.png"
+            alt="Live site mobile layout with hamburger navigation"
+            class="cs-image"
+          />
+
+          <img
+            src="./files/yalefinal.png"
+            alt="Live site layout"
+            class="cs-image"
+          />
+
+          <p>
+            The hamburger menu on mobile and the full horizontal nav on desktop
+            are real, working JavaScript interactions. The mobile hamburger
+            opens and closes reliably — one of the specific pain points in the
+            original site. We tested both layouts in Chrome DevTools before
+            deployment.
+          </p>
+
+          <h3>Search &amp; Micro-Interactions</h3>
+
+          <img
+            src="./files/search.png"
+            alt="Live search feature with dropdown suggestions"
+            class="cs-image"
+          />
+
+          <p>
+            Search suggestions filter in real time on every keystroke. Searching
+            for "Sculpture" brings up instant dropdown suggestions. Clearing the
+            input resets the view, and an empty-state message appears when
+            nothing matches. Loading indicators appear during simulated async
+            actions. Micro-animations throughout make the interface feel
+            intentional and responsive.
+          </p>
+
+          <h3>Form Validation</h3>
+
+          <img
+            src="./files/form.png"
+            alt="Inline form validation with error and success states"
+            class="cs-image"
+          />
+
+          <p>
+            The application form validates on input and on blur. Errors appear
+            inline, directly beside the relevant field, in plain language
+            explaining what to fix. They clear automatically once the input is
+            corrected. No alert boxes, no full-page error states — exactly the
+            opposite of the original site's pop-up validation.
+          </p>
+
+          <h3>Accessibility &amp; Dark Mode</h3>
+
+          <img
+            src="./files/yalefinal.png"
+            alt="Color Modes WCAG AA contrast compliance"
+            class="cs-image"
+          />
+          <img
+            src="./files/yalefinaldark.png"
+            alt="Color Modes WCAG AA contrast compliance"
+            class="cs-image"
+          />
+
+          <p>
+            All text in both light and dark themes meets WCAG AA contrast
+            ratios. Typography uses <code>rem</code> units throughout. The dark
+            mode toggle is positioned top-right on every page, applies to every
+            component, and uses a designed dark palette — not a simple color
+            inversion. The session preference persists across page navigation.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── 07 OUTCOME ── -->
+      <section class="cs-section" id="outcome">
+        <div class="cs-section-label">
+          <span class="step-num">07</span>
+          <span>Outcome</span>
+        </div>
+
+        <div class="cs-content">
+          <h2>Before &amp; <em>After</em></h2>
+
+          <img
+            src="./files/yaleoriginal.png"
+            alt="Comparison between original Yale site and redesigned version"
+            class="cs-image large"
+          />
+
+          <img
+            src="./files/yalefinal.png"
+            alt="Comparison between original Yale site and redesigned version"
+            class="cs-image large"
+          />
+
+          <div class="outcome-stats">
+            <div class="stat-card">
+              <div class="stat-num">4</div>
+              <div class="stat-label">rounds of user testing</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">15+</div>
+              <div class="stat-label">testers across the semester</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">7</div>
+              <div class="stat-label">heuristic violations resolved</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">task success rate, final test</div>
+            </div>
+          </div>
+
+          <p>
+            The redesign resolved all seven heuristic violations identified at
+            the start. All three prototype testers completed every task
+            successfully. The application flow averaged under 30 seconds
+            end-to-end. The dark mode toggle was found immediately after being
+            moved to the top-right, and search with autocomplete was described
+            as intuitive by every participant. The deployed site passes WCAG AA
+            contrast on both themes and scales cleanly from 375px to 1280px.
+          </p>
+
+          <div class="quote-block">
+            <p>
+              "Real user feedback at every stage was the difference between a
+              design that looks good and one that actually works."
+            </p>
+            <cite>Key lesson — Group 4, ITIS 4390</cite>
+          </div>
+
+          <div class="live-link-block">
+            <a
+              href="https://giancarlopretell.github.io/Interaction-Design-Capstone"
+              target="_blank"
+              class="contact-btn"
+              >View Live Site →</a
+            >
+            <a
+              href="https://github.com/GiancarloPretell/Interaction-Design-Capstone"
+              target="_blank"
+              class="contact-btn"
+              >View on GitHub →</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /cs-body -->
+
+    <!-- NEXT PROJECT -->
+    <div class="next-project">
+      <div class="next-inner">
+        <span class="section-eyebrow">Next</span>
+        <a href="index.html#work" class="next-link">
+          Back to all work
+          <span class="next-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Kirill Zakharov</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kzakharo" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="./files/KZResume.pdf" target="_blank">Résumé</a>
+        <a href="https://github.com/ZKirill01" target="_blank">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

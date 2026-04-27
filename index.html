@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirill Zakharov — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300;1,9..144,500&family=Syne:wght@400;500;600;700&family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+
+    <nav>
+      <a href="#" class="nav-logo"
+        ><span>Kirill Zakharov</span><span>.</span></a
+      >
+      <div class="nav-right">
+        <div class="nav-dot"></div>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button
+          class="mode-toggle"
+          id="mode-toggle"
+          aria-label="Toggle color mode"
+        ></button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-bg-text">CREATE</div>
+      <div class="hero-status">
+        Open to opportunities &nbsp;·&nbsp;
+        <span>Graduating May 2026</span>
+      </div>
+      <h1>
+        <span>Building</span><br />
+        <em>secure</em><br />
+        <span class="outline">systems.</span>
+      </h1>
+      <div class="hero-divider"></div>
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          <strong>CS student at UNCC</strong> concentrating in Cybersecurity
+          with a Math minor — focused on backend engineering, automation, and
+          secure software design.
+        </p>
+        <div class="hero-scroll">
+          <div class="scroll-line"></div>
+          Scroll to explore
+        </div>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <div class="section" id="work">
+      <div class="section-eyebrow">Selected Work</div>
+      <div class="work-header">
+        <h2>Projects &amp;<br />Experience</h2>
+        <p>
+          UX design, backend systems, and automation — built across coursework
+          and professional work.
+        </p>
+      </div>
+
+      <div class="case-studies">
+        <!-- FEATURED: Yale School of Art Redesign -->
+        <div class="cs-card" data-delay="0">
+          <div class="cs-info">
+            <div>
+              <div class="cs-tags">
+                <span class="cs-tag featured">Featured</span>
+                <span class="cs-tag">UX Research</span>
+                <span class="cs-tag">Figma</span>
+                <span class="cs-tag">HTML/CSS/JS</span>
+                <span class="cs-tag">Interaction Design</span>
+              </div>
+              <h3>Yale School of Art Website Redesign</h3>
+              <p>
+                A semester-long end-to-end UX redesign of art.yale.edu — one of
+                the most notoriously chaotic university websites. Led design
+                through heuristic evaluation, paper sketches, Figma wireframes,
+                a hi-fi prototype, and a fully responsive live site with dark
+                mode, real-time search, and inline form validation — achieving
+                100% task success in final user testing.
+              </p>
+            </div>
+            <div class="cs-footer">
+              <span class="cs-year">2026</span>
+              <a href="case-study.html" class="cs-link">View Case Study →</a>
+            </div>
+          </div>
+          <div class="cs-image">
+            <img
+              src="./files/yalecover.png"
+              alt="Yale School of Art Redesign Screenshot"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="inner">
+        <div class="section-eyebrow">About Me</div>
+        <div class="about-grid">
+          <div class="about-left">
+            <h2>Security-<em>minded</em><br />builder,<br />problem solver.</h2>
+            <div class="about-photo">
+              <img
+                src="./files/1727371143587.jpg"
+                alt="Kirill Zakharov Photo"
+              />
+            </div>
+          </div>
+          <div class="about-right">
+            <p>
+              <strong>Hi — I'm Kirill,</strong> a 22-year-old Computer Science
+              student at UNC Charlotte, concentrating in Cybersecurity with a
+              minor in Mathematics. I graduate in May 2026 with a 3.96 GPA and a
+              place on the Chancellor's List.
+            </p>
+            <p>
+              I like building things that solve real problems — whether that's a
+              backend API that handles hundreds of edge cases cleanly, a script
+              that eliminates hours of manual work, or a website that actually
+              ranks. I work across the stack but feel most at home in backend
+              systems and automation.
+            </p>
+            <p>
+              Outside of code, I speak three languages (English, Russian, and
+              Spanish), which helps me think about problems — and people — from
+              more than one angle.
+            </p>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <label>Languages</label>
+                <span>Java, Python, JS, C/C++, SQL, Bash</span>
+              </div>
+              <div class="skill-item">
+                <label>Tools</label>
+                <span>FastAPI, MySQL, Google Apps Script, Wix Studio</span>
+              </div>
+              <div class="skill-item">
+                <label>Focus</label>
+                <span>Cybersecurity · Backend · Automation</span>
+              </div>
+              <div class="skill-item">
+                <label>Currently</label>
+                <span>Open to internships &amp; full-time roles</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="contact-strip">
+        <div class="contact-left">
+          <h2>Let's work<br /><em>together.</em></h2>
+          <p>Reach out for internships, full-time roles, or just to connect.</p>
+        </div>
+        <a
+          href="mailto:kizakh0114@gmail.com"
+          class="contact-btn"
+          id="contact-email"
+          >Get in touch →</a
+        >
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Kirill Zakharov</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kzakharo" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="./files/KZResume.pdf" target="_blank">Résumé</a>
+        <a href="https://github.com/ZKirill01" target="_blank">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
