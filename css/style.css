@@ -868,6 +868,25 @@ button:hover {
 ──────────────────────────────────────────── */
 
 @media (max-width: 768px) {
+  /* ─── HIDE SCROLLBARS ONLY ON MOBILE ─── */
+
+  /* Chrome / Safari / Edge */
+  body::-webkit-scrollbar,
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox */
+  html,
+  body {
+    scrollbar-width: none;
+  }
+
+  /* IE / old Edge */
+  html,
+  body {
+    -ms-overflow-style: none;
+  }
   /* ───────────────── GLOBAL ───────────────── */
   html,
   body {
@@ -1028,6 +1047,7 @@ button:hover {
     margin-left: 3rem;
     background: var(--accent);
     color: var(--bg);
+    font-size: 0.5rem;
   }
 
   /* ───────────────── STACKED LAYOUTS ───────────────── */
