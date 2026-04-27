@@ -861,3 +861,232 @@ a:hover,
 button:hover {
   cursor: none !important;
 }
+
+/* ─────────────────────────────────────────────
+   FULL MOBILE FIX (CASE STUDY + HOME COMBINED)
+   Drop-in replacement
+──────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  /* ───────────────── GLOBAL ───────────────── */
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    padding-top: 70px; /* FIX: prevents fixed nav overlap */
+  }
+
+  /* ───────────────── NAV ───────────────── */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 1.2rem;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    z-index: 100;
+  }
+
+  .nav-right {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .nav-right a {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+  }
+
+  .nav-logo {
+    font-size: 1rem;
+  }
+
+  .nav-dot {
+    display: none;
+  }
+
+  /* ───────────────── HOME HERO ───────────────── */
+  .hero {
+    min-height: auto;
+    padding: 2rem 1.2rem 3rem;
+  }
+
+  .hero-bg-text {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-status {
+    font-size: 0.65rem;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-divider {
+    display: none;
+  }
+
+  .hero-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .hero-desc {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .hero-scroll {
+    display: none;
+  }
+
+  /* ───────────────── CASE STUDY HERO ───────────────── */
+  .cs-hero {
+    padding: 1.2rem;
+  }
+
+  .cs-hero-title {
+    font-size: clamp(2rem, 7vw, 3rem);
+    line-height: 1.1;
+  }
+
+  .cs-hero-summary {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .cs-hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  /* ───────────────── META BAR ───────────────── */
+  .cs-meta-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .cs-meta-item {
+    font-size: 0.85rem;
+  }
+
+  /* ───────────────── HERO STATS BLOCK ───────────────── */
+  .cs-hero-img {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .cs-hero-img > div {
+    gap: 1.5rem !important;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .cs-hero-img a {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* shrink stat numbers */
+  .cs-hero-img div[style*="font-size: 2.8rem"] {
+    font-size: 2rem !important;
+  }
+
+  /* ───────────────── SECTIONS ───────────────── */
+  .cs-section {
+    padding: 3rem 1.2rem;
+  }
+
+  .cs-content {
+    font-size: 0.95rem;
+  }
+
+  /* ───────────────── IMAGES ───────────────── */
+  .cs-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* ───────────────── LINKS ───────────────── */
+  .cs-link {
+    width: 100%;
+    text-align: center;
+    margin-left: 3rem;
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  /* ───────────────── STACKED LAYOUTS ───────────────── */
+  .finding-grid,
+  .goals-list,
+  .prototype-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .change-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .change-arrow {
+    transform: rotate(90deg);
+    align-self: center;
+  }
+
+  /* ───────────────── OUTCOME ───────────────── */
+  .outcome-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .stat-num {
+    font-size: 1.5rem;
+  }
+
+  /* ───────────────── TIMELINE FIX ───────────────── */
+  .cs-section [style*="grid-template-columns: repeat(5, 1fr)"] {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  .cs-section [style*="height: 4rem"] {
+    width: 3rem !important;
+    height: 3rem !important;
+    font-size: 1.2rem !important;
+  }
+
+  /* ───────────────── FOOTER ───────────────── */
+  footer {
+    padding: 1.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
